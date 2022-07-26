@@ -1,0 +1,8 @@
+com.portfolio.dfv
+com.portfolio.dfv.Controller
+com.portfolio.dfv.Entity
+com.portfolio.dfv.Interface
+com.portfolio.dfv.Repository
+com.portfolio.dfv.Security.Entity
+com.portfolio.dfv.Security.Enums
+com.portfolio.dfv.Service

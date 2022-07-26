@@ -1,0 +1,4 @@
+com\portfolio\dfv\DfvApplication.class
+com\portfolio\dfv\Security\Enums\RolNombre.class
+com\portfolio\dfv\Security\Entity\Rol.class
+com\portfolio\dfv\Security\Entity\Usuario.class

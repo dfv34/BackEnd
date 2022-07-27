@@ -78,6 +78,9 @@ public class CEducacion {
         Educacion educacion = sEducacion.getOne(id).get();
         educacion.setTituloEdu(dtoedu.getTituloEdu());
         educacion.setDescEdu((dtoedu.getDescEdu()));
+        educacion.setFechainicioEdu((dtoedu.getFechainicioEdu()));
+        educacion.setFechafinEdu((dtoedu.getFechafinEdu()));
+        educacion.setImagenEdu((dtoedu.getImagenEdu()));
         
         sEducacion.save(educacion);
         return new ResponseEntity(new Mensaje("Educacion actualizada"), HttpStatus.OK);

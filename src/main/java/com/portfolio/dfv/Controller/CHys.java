@@ -78,6 +78,7 @@ public class CHys {
         Hys hys = sHys.getOne(id).get();
         hys.setNombreSk(dtohys.getNombreSk());
         hys.setPorcentSk((dtohys.getPorcentSk()));
+        hys.setFotoSk((dtohys.getFotoSk()));
         
         sHys.save(hys);
         return new ResponseEntity(new Mensaje("Habilidad actualizada"), HttpStatus.OK);
